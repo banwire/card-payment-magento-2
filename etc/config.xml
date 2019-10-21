@@ -5,18 +5,23 @@
  * See COPYING.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <payment>
-            <banwire>
-				<active>1</active>
-                <model>Banwire\Card\Model\BanwirePaymentMethod</model>
-                <order_status>pending</order_status>
+            <!--        <bizspicepayment>-->
+            <banwirecard>
+                <active>1</active>
+                <!--            <model>Banwire\Card\Model\BanwirePaymentMethod</model>-->
+                <model>Banwire\Card\Model\Payment</model>
+                <payment_action>authorize_capture</payment_action>
                 <title>Banwire Card Payment</title>
-               
-			</banwire>
-          
+                <api_key backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <cctypes>AE,VI,MC</cctypes>
+                <allowspecific>0</allowspecific>
+                <min_order_total>1</min_order_total>
+            </banwirecard>
         </payment>
     </default>
 </config>
-
