@@ -1,0 +1,26 @@
+{
+  "name": "banwire/card-payment-magento-2",
+  "description": "Banwire card paymet integration for Magento 2",
+  "type": "magento2-module",
+  "homepage": "https://github.com/banwire/card-payment-magento-2/",
+  "keywords": ["banwire", "magento", "magento 2", "plugin", "extension", "payment", "card"],
+  "version": "1.0.5",
+  "license": [
+      "MIT"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.3.0",
+    "magento/framework": ">=100.0.4 <102"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Banwire\\Card\\": ""
+    }
+  },
+  "support": {
+        "issues": "https://github.com/banwire/card-payment-magento-2/issues",
+        "docs": "https://docs.banwire.com/v1.1/page/banwire-card-integeration-for-magento-2",
+        "email": "support@banwire.com"
+    }
+}
