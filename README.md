@@ -2,7 +2,8 @@
 [![Latest Stable Version](https://poser.okvpn.org/banwire/card-payment-magento-2/v/stable)](https://packagist.org/packages/banwire/card-payment-magento-2) 
 [![Total Downloads](https://poser.okvpn.org/banwire/card-payment-magento-2/downloads)](https://packagist.org/packages/banwire/card-payment-magento-2) 
 [![Latest Unstable Version](https://poser.okvpn.org/banwire/card-payment-magento-2/v/unstable)](https://packagist.org/packages/banwire/card-payment-magento-2) 
-[![License](https://poser.okvpn.org/banwire/card-payment-magento-2/license)](https://packagist.org/packages/banwire/card-payment-magento-2)   
+[![License](https://poser.okvpn.org/banwire/card-payment-magento-2/license)](https://packagist.org/packages/banwire/card-payment-magento-2)
+[![CodeFactor](https://www.codefactor.io/repository/github/banwire/card-payment-magento-2/badge)](https://www.codefactor.io/repository/github/banwire/card-payment-magento-2)   
 
 This extension allows you to use Banwire as payment gateway in your Magento 2 store.
 
